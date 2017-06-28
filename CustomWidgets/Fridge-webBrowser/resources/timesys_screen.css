@@ -1,0 +1,697 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+** HTML elements_New Website Styles September 2010 - Theresa Kisha ///////////////////////////////////////////////////////
+** Styles last modified 29 FEB 2012 ///////////////////////////////////////////////////////
+*/
+
+
+/* ////////////////////////////////////// GENERAL STYLES ////////////////////////////////////////////// */
+body {
+	background-color: #FFFFFF;
+	font-family: Arial,Verdana,Helvetica,sans;
+	font-size: 12px;
+	font-style:normal;
+	color: #707070;
+	margin-top:0;
+}
+a:link {
+	color: #005481;
+	font-weight:bold;
+	text-decoration: none;
+}
+a:visited {
+    font-weight:bold;
+	text-decoration: none;
+	color: #005481;
+}
+a:hover {
+	text-decoration: none;
+	font-weight:bold;
+	color: #F8981D;
+}
+a:active {
+	text-decoration: none;
+	font-weight:bold;
+}
+
+
+
+/* ////////////////////////////////////// HEADER & MAIN NAV STYLES ////////////////////////////////////////////// */
+#header{
+	height:103px;
+	padding: 30px 0 0 0;
+	overflow: hidden;
+	position: relative;
+}
+
+#logo{
+	float: left;
+}
+
+#logo a{
+	margin-top:0px;
+	margin-bottom: 20px;
+	margin-left: 33px;
+	background: transparent url(/images/logo_timesys.png) no-repeat;
+	display: block;
+	text-align: left;
+	text-indent: -10000em;			
+	width: 303px;
+	height: 57px;
+}
+
+#login{
+	position:absolute;
+	font-weight:bold;
+	bottom:70px;
+	right:30px;
+}
+
+#menubar {
+	position:absolute;
+	width: 972px;
+	height:40px;
+	clear:both;
+	bottom:0px;
+	right:0px;
+	background-repeat:repeat-x; 
+       background:url(/images/navbar.jpg);
+}
+
+#menu{
+	overflow: hidden;
+	text-align: left;
+	padding-top: 0px;
+	padding-left: 0px;  /*before adding training to menu 33px */
+       margin-left: 0px;  /* didn't include before adding training to menu */
+	margin-top: 12px;
+	clear:both;
+	position:relative;
+}
+
+#menu li{
+	float: left;
+	list-style: none;
+	padding: 0;
+	display:block;
+       margin: 0;
+}
+
+#menu li a{
+	color: #FFFFFF;
+	display: block;
+	padding: 0px 8px 0px 0px; /*before adding trainig to menu 0px 45px 0px 0px*/
+       margin-left: 33px; /* didn't include before adding training to menu */
+}
+
+#menu li a.spe{
+	color: #f7971c;
+}
+
+#menu a:hover{
+	text-decoration:none;
+	color:#f8981d;
+}
+
+/* ////////////////////////////////////// PAGE CONTENT STYLES ////////////////////////////////////////////// */
+#container{	
+	background-color: #FFF;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-top:0px;
+	clear: both;
+	overflow: hidden;
+} 
+
+
+#content{
+	float: left;
+	overflow:hidden;
+	font-size:13px;
+	width:512px;
+	padding-top:0px;
+	padding-right:0;
+}
+
+#home { /* used for front page only */
+	float:left;
+	width: 710px;
+	margin-left:23px;
+	margin-top: 10px;
+	padding-right:0;
+}
+
+#homeleft { /* used for front page only */
+	float:left;
+	margin-left:0px;
+	margin-top: 10px;
+}
+
+#homeright { /* used for front page only */
+	float:left;
+	margin-left:8px;
+	margin-top: 10px;
+	padding-right:0;
+}
+
+.homeimg {
+	margin:0;
+	padding-top:10px;
+}
+	
+#main { /* main content area of interior pages */
+	width:512px;
+	margin-left:0px;
+	margin-top: 30px;
+	padding-top: 0px;
+}
+
+#nextsteps {
+	background-color: #f0f5f8;
+	border-width:1px;
+	border-color: #b2cbd9;
+	border-style: solid;
+	padding:0;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#blocks { /* right column CTA boxes */
+	float:right;
+	width:197px;
+	padding-top:20px;
+}
+
+#sidebar {
+	width: 190px;
+	background-color: #eeeeee;
+	border: none;
+	padding-top:10px;
+       padding-bottom:10px;
+	margin-left:5px;
+	margin-right:0;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.cta {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.blockimg {
+	padding-bottom:0;
+	padding-left:5px;
+	border:0;
+}
+
+.sidebarimg {
+	padding-bottom:0;
+	padding-left:10px;
+	padding-right:10px;
+	border:0;
+
+}
+
+#content h1 {
+	font-weight:normal;
+	font-size: 28px;
+	color: #f7971c;
+	line-height: 32px;
+  	margin-bottom: 15px;
+	text-align:left;
+}
+.content-title{
+	font-weight:normal;
+	font-size: 28px;
+	color: #f7971c;
+	line-height: 32px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	padding-top:0px;
+}
+
+#content h2 {
+	font-size: 1.2em;
+	color: #005482;
+	padding-top:10px;
+	padding-bottom:0;
+	text-align:left;
+}
+#content h3 {
+	font-size: 1.2em;
+	color: #333333;
+	margin-bottom:8px;
+  	padding-top:10px;
+	text-align:left;
+}
+
+#content h3.nextstepscta {
+	padding-top: 13px;
+	padding-left:0px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+		text-align:left;
+}
+
+#content h4 {
+	font-size: 1.1em;
+	color: #7bb52d;
+	padding-top:5px;
+  	margin-bottom: 0px;
+		text-align:left;
+}
+
+#content h5 { /*used for left nav menu Admin head */
+	font-size: 1.1em;
+	font-weight:bold;
+	color: #333333; 
+	padding-top:0px;
+	padding-bottom:0;
+	margin-bottom:0;
+		text-align:left;
+}
+
+p {
+  width:auto;
+  line-height:1.4em;
+  color:#707070;
+  margin-bottom: 0;
+  margin-top:0;
+  padding-top:6px; 
+  padding-bottom: 6px;
+  text-align:left;
+}
+
+.italtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 1.4em;
+} 
+
+.intro {
+  font-size:16px;
+  line-height: 22px;
+}
+
+
+.nextstepscta {
+	padding-top: 0px;
+	margin-left:15px;
+	margin-right: 15px;
+	margin-bottom: 15px; /*20px*/
+	margin-top:0;
+}
+
+.blockdate {
+	font-size:11px;
+	padding-left:5px;
+	padding-bottom:0px;
+	padding-top:12px;
+}
+
+.blocktext {
+	padding-left:5px;
+}
+
+.sidebarcta {
+	padding-left:10px;
+}
+
+.sidebarhead { /*used for right sidebars */
+	font-size: 1.1em;
+	font-weight:bold;
+	color: #f8981d;
+	padding-left:10px; 
+}
+
+
+li {
+	padding-top:0px;
+	padding-bottom:10px;
+  	line-height:1.4em;
+	margin:.2em 0;
+	text-align:left;
+}
+
+/* li.pad { padding-top:10px; padding-bottom:0; }*/
+
+.pad { 
+	padding-top:10px; 
+	padding-bottom:10px;
+  	line-height:1.4em;
+	margin:.2em 0;
+}
+.one { 
+	padding-top:10px; 
+	padding-bottom:0px;
+  	line-height:1.4em;
+	margin:.2em 0;
+}
+.last { 
+	padding-top:0px; 
+	padding-bottom:0px;
+  	line-height:1.4em;
+	margin:.2em 0;
+}
+
+
+/* ////////////////////////////////////// PAGE TABLE STYLES ////////////////////////////////////////////// */
+
+#content table {  
+	width:512px;
+	background-color: #FFFFFF; 
+	border: 0px; 
+	margin:0; 
+	width: 100%; 
+	text-align: left; 
+	vertical-align: top;
+}
+#content table.tablecta {
+	width:482px;
+	margin-top:0px;
+	margin-left: 0px;
+	margin-right:0px;
+	margin-bottom:15px;
+	vertical-align: center;
+}
+
+#content table.tablesorter {
+	width:512px;
+	background-color: #transparent; 
+	margin-top:0px;
+	margin-left: 0px;
+	margin-right:0px;
+	margin-bottom:15px;
+	vertical-align: center;
+}
+
+#content table.tablesorter thead tr th {
+	background-repeat:repeat-x;
+       background:url(/images/embedded-linux-devices.jpg);
+	font-size: 12px;
+	color: #FFF; 
+	font-style: bold;
+	padding-left:10px;
+	padding-right: 7px;
+	padding-right:0;
+	margin:0; 
+	vertical-align: center;
+}
+
+#content table.tablesorter tbody td {
+	font-size: 12px; 
+	line-height: 1.6em;
+       padding-right: 7px;  /*this puts spacing between the cols in the kernel & toolchain tables*/
+}
+
+#content table tr th { 
+	background-repeat:repeat-x;
+       background:url(/images/embedded-linux-devices.jpg);
+	color: #FFF; 
+	font-style: bold;
+	padding-left:10px;
+	padding-right:0;
+	margin:0; 
+	vertical-align: center;
+}
+
+#content table tr td { 
+	color: #707070; 
+	padding:0;
+	margin:0; 
+	vertical-align: top;
+}
+
+#content table.tablecta tr  { 
+	vertical-align: center;
+}
+
+.h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-style: bold;
+	color: #7bb52d;
+	padding-top:0px;
+  	margin-bottom: 0px;
+}
+
+#content table tr td ul li{ 
+	color: #707070; 
+	padding:0;
+	margin:0; 
+	vertical-align: top;
+  	line-height:1.4em;
+	margin:.3em 0;
+	text-align:left;
+}
+
+#content table tr td img{ 
+	padding-top:0px;
+	margin:0; 
+	vertical-align: top;
+	
+}
+
+#content table.tablecta tr td p { 
+	vertical-align: center;
+	padding-top:10px;
+	margin-top:5px;
+	margin-right:10px;
+}
+
+#content table.tablecta tr td img { 
+	padding-top: 10px;
+	padding-left: 15px;
+	vertical-align: center;
+}
+
+.top {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .75em;
+	font-style: normal;
+}
+
+
+/* ////////////////////////////////////// DOC STYLES ////////////////////////////////////////////// */
+
+.notes {
+background-color: #ffffdd;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+border-width: 1px;
+border-style: solid;
+border-color: #999999;
+padding:12px;
+}
+
+pre {
+border-width: 1px;
+border-style: dashed;
+border-color: gray;
+padding: 5px;
+font-size: 1em;
+color: #000000;
+background-color: #efefef;
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+font-family: monospace;
+display: block;
+text-align: left;
+overflow-x: auto;
+}
+
+/* ////////////////////////////////////// LEFT NAV STYLES ////////////////////////////////////////////// */
+
+#leftnav { /* left nav menu box & content */
+	float:left;
+	width: 150px;
+	margin-left:33px;
+	margin-top: 20px;
+}
+
+#leftnav table tr td { /* left nav menu box & content */
+	font-size: 11px;
+	font-weight:bold;
+	color: #005481;
+	padding-top:10px;
+	padding-bottom: 3px;
+	/*border-bottom: 1px;
+	border-bottom-color: #333333;
+	border-bottom-style:solid;*/
+}
+
+#leftnav table tr td img{ 
+	padding-top:3px;
+	margin:0; 
+	vertical-align: top;
+}
+
+p.quote{ /* left nav customer quotes */
+	font-size: 15px;
+	font-style:italic;
+	color: #f7971c;
+	padding-top:10px;
+	padding-bottom: 3px;
+}
+
+p.attribute{ /* left nav customer attribute */
+	font-size: 11px;
+	font-style:italic;
+	padding-top:0px;
+	padding-bottom: 3px;
+}
+
+a.leftmenu link{
+	font-weight:bold;
+	color: #005481;
+	text-decoration: none;
+}
+
+a.leftmenu visited{
+	font-weight:bold;
+	color: #005481;
+	text-decoration: none;
+}
+
+a.leftmenu active{
+	font-weight:bold;
+	color: #F8981D;
+	text-decoration: none;
+}
+
+a.leftmenu hover{
+	font-weight:bold;
+	color: #F8981D;
+	text-decoration: none;
+}
+
+.leftmenu-indent {
+	font-size: 11px;
+	font-weight:bold;
+	color: #005481;
+	padding-bottom:5px;
+}
+a.leftmenu-indent link{
+	font-weight:bold;
+	color: #005481;
+	text-decoration: none;
+}
+
+a.leftmenu-indent visited{
+	font-weight:bold;
+	color: #005481;
+	text-decoration: none;
+}
+
+a.leftmenu-indent active{
+	font-weight:bold;
+	color: #F8981D;
+	text-decoration: none;
+}
+
+a.leftmenu-indent hover{
+	font-weight:bold;
+	color: #F8981D;
+	text-decoration: none;
+}
+
+
+/* ////////////////////////////////////// FOOTER STYLES ////////////////////////////////////////////// */
+
+#footer{
+	clear: both;
+	font-size: 10px;
+	overflow: hidden;
+	padding: 30px 0px 20px 0px;		
+	margin-top:20px;
+}
+
+#footernav {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navtable {
+	background:transparent;
+	display:block;
+	margin: 0;
+	padding: 0;
+}
+
+a.menu:link {
+  color: #707070; 
+  text-decoration: none;
+}
+
+a.menu:visited {
+  color: #707070; 
+  text-decoration: none;
+}
+a.menu:hover {
+  color: #005481; 
+  text-decoration: none;
+}
+
+a.menu:active {
+  color: #707070; 
+  text-decoration: none;
+}
+
+/* ////////////////////////////////////// MISC STYLES ////////////////////////////////////////////// */
+#search-submit{
+       color:red;
+       background-image:url(/images/search.gif);
+       background-repeat:no-repeat;
+       border:none;
+       background-color:#fff;
+       position:absolute;
+       bottom:6px;
+       right:5px;
+       width:16px;
+       height:16px;
+       padding:0px;
+ }
+
+input.taller{
+        padding-right:24px;
+        height:22px;
+}
+
+
+#header form{
+        bottom: 2px;
+        position: absolute;
+        right: 0px;
+}
+
+#login a {
+        word-wrap:normal;
+        position:relative;
+        right:200px;
+        bottom:3px;
+        font-size:12px;
+}
+
+#toll {
+       word-wrap:normal;
+	position:relative;
+       right:380px;
+	top: 20px;
+	font-size:14px;
+       color: #e08701;
+}
+
+.toll {
+        vertical-align: center;
+}

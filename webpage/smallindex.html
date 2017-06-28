@@ -1,0 +1,49 @@
+<html>
+<body>
+
+<script>
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","smallfridge_contents.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML;
+
+document.write("<h2>");
+document.write("My Fridge Contents");
+document.write("</h2>");
+
+document.write("<table border='1'>");
+document.write("<tr bgcolor=");
+document.write("#9acd32");
+document.write("><th>");
+document.write("Food");
+document.write("</th><th>");
+document.write("Expiration Date");
+document.write("</th><th>");
+document.write("Quantity");
+document.write("</th></tr>");
+
+var x=xmlDoc.getElementsByTagName("food");
+for (i=0;i<x.length;i++)
+  {
+  document.write("<tr><td>");
+  document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+  document.write(x[i].getElementsByTagName("expiration")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+  document.write(x[i].getElementsByTagName("quantityNum")[0].childNodes[0].nodeValue);
+  document.write(" - ");
+  document.write(x[i].getElementsByTagName("quantityUnit")[0].childNodes[0].nodeValue);
+  document.write("</td></tr>");
+  }
+document.write("</table>");
+</script>
+
+</body>
+</html>

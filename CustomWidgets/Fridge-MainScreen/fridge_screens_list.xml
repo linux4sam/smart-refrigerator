@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+  <title>All Applications</title>
+  <link rel="self" href="applications.xml" />
+  <id>tag:atmel.com,2005:/photos/public</id>
+  <icon>resources/atmel.png</icon>
+  <subtitle></subtitle>
+  <updated>2012-11-01T15:45:05Z</updated>
+  <generator uri="http://www.atmel.com/">Atmel</generator>
+
+<screen id="Screen 1">
+<entry>
+    <title>FridgeZones</title>
+    <link rel="alternate" type="text/html" href="../../applications/resources/fridge-home-zones.png"/>
+    <id>tag:atmel.com,2005:/app/8144940683</id>
+    <published>2012-11-01T15:45:05Z</published>
+    <updated>2012-11-01T15:45:05Z</updated>
+    <author>Unknown</author>
+    <path exec="/opt/demos/HomeAutomation/HomeAutomation.sh" />
+    <arg></arg>
+    <description>Test Description</description>
+    <link rel="enclosure" type="image/png" href="../../applications/resources/fridge-home-zones.png" />
+</entry>
+
+<entry>
+    <title>FridgeCalendar</title>
+    <link rel="alternate" type="text/html" href="../../applications/resources/fridge-home-calendar.png"/>
+    <id>tag:atmel.com,2005:/app/8144940683</id>
+    <published>2012-11-01T15:45:05Z</published>
+    <updated>2012-11-01T15:45:05Z</updated>
+    <author>Unknown</author>
+    <path exec="/opt/demos/browser/browser.sh" />
+    <arg></arg>
+    <description>Test Description</description>
+    <link rel="enclosure" type="image/png" href="../../applications/resources/fridge-home-calendar.png" />
+</entry>
+<entry>
+    <title>FridgeContent</title>
+    <link rel="alternate" type="text/html" href="../../applications/resources/fridge-home-contents.png" />
+    <id>tag:atmel.com,2005:/app/8144940683</id>
+    <published>2012-11-01T15:45:05Z</published>
+    <updated>2012-11-01T15:45:05Z</updated>
+    <author>Unknown</author>
+    <path exec="/opt/demos/samegame/samegame.sh" />
+    <arg></arg>
+    <description>Test Description</description>
+    <link rel="enclosure" type="image/png" href="../../applications/resources/fridge-home-contents.png" />
+</entry>
+<entry>
+    <title>FridgeWhiteboard</title>
+    <link rel="alternate" type="text/html" href="../../applications/resources/fridge-home-whiteboard.png" />
+    <id>tag:atmel.com,2005:/app/8144940683</id>
+    <published>2012-11-01T15:45:05Z</published>
+    <updated>2012-11-01T15:45:05Z</updated>
+    <author>Unknown</author>
+    <path exec="/opt/demos/photoviewer/photoviewer.sh" />
+    <arg></arg>
+    <description>Test Description</description>
+    <link rel="enclosure" type="image/png" href="../../applications/resources/fridge-home-whiteboard.png" />
+</entry>
+<entry>
+    <title>FridgeEpicurious</title>
+    <link rel="alternate" type="text/html" href="../../applications/resources/fridge-home-epi.png" />
+    <id>tag:atmel.com,2005:/app/8144940683</id>
+    <published>2012-11-01T15:45:05Z</published>
+    <updated>2012-11-01T15:45:05Z</updated>
+    <author>Unknown</author>
+    <path exec="/opt/demos/browser/atmel.sh" />
+    <arg></arg>
+    <description>Test Description</description>
+    <link rel="enclosure" type="image/png" href="../../applications/resources/fridge-home-epi.png" />
+</entry>
+<entry>
+    <title>FridgeBrowser</title>
+    <link rel="alternate" type="text/html" href="../../applications/resources/fridge-home-internet.png" />
+    <id>tag:atmel.com,2005:/app/8144940683</id>
+    <published>2012-11-01T15:45:05Z</published>
+    <updated>2012-11-01T15:45:05Z</updated>
+    <author>Unknown</author>
+    <path exec="/opt/demos/browser/timesys.sh" />
+    <arg></arg>
+    <description>Test Description</description>
+    <link rel="enclosure" type="image/png" href="../../applications/resources/fridge-home-internet.png" />
+</entry>
+</screen>
+</feed>

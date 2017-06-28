@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Timesys :: Embedded Linux for Atmel Processors</title>
+</head>
+
+<body>
+<script>
+function doConnectFunction() {
+//connected to the internet
+redirURL = "http://www.timesys.com";
+self.setTimeout("self.location.href = redirURL;",0000);}
+function doNoConnectFunction() {
+//not connected to the internet
+redirURL = "timesys_offline.html";                                                                                                       
+self.setTimeout("self.location.href = redirURL;",0000);}
+</script>
+<script>
+var i = new Image();
+i.onload = doConnectFunction;
+i.onerror = doNoConnectFunction;
+var d = new Date();
+i.src = 'http://www.timesys.com/images/logo_timesys.png?d=' + escape(d.getTime());
+//escape(Date()) necessary to override possibility of image coming from cache
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/icon-calendar-view.png</file>
+        <file>resources/icon-list-view.png</file>
+        <file>resources/arrow-right.png</file>
+        <file>resources/arrow-left.png</file>
+        <file>qml/FridgeCalendar/Button.qml</file>
+        <file>qml/FridgeCalendar/CalendarDayEvent.qml</file>
+        <file>qml/FridgeCalendar/Keyboard.qml</file>
+        <file>qml/FridgeCalendar/main.qml</file>
+        <file>qml/FridgeCalendar/MonthView.qml</file>
+        <file>qml/FridgeCalendar/assets/CharacterKey.qml</file>
+        <file>qml/FridgeCalendar/assets/FunctionKey.qml</file>
+        <file>qml/FridgeCalendar/assets/icon-m-input-methods-backspace.svg</file>
+        <file>qml/FridgeCalendar/assets/icon-m-input-methods-capslock.svg</file>
+        <file>qml/FridgeCalendar/assets/icon-m-input-methods-enter.svg</file>
+        <file>qml/FridgeCalendar/assets/icon-m-input-methods-shift.svg</file>
+        <file>qml/FridgeCalendar/assets/icon-m-input-methods-shift-lowercase.svg</file>
+        <file>qml/FridgeCalendar/assets/icon-m-input-methods-shift-uppercase.svg</file>
+        <file>qml/FridgeCalendar/assets/KeyboardLogic.qml</file>
+        <file>qml/FridgeCalendar/DayView.qml</file>
+        <file>qml/FridgeCalendar/DayTimes.qml</file>
+        <file>qml/FridgeCalendar/CalendarDayEventlist.qml</file>
+        <file>qml/SmallFridgeCalendar/Button.qml</file>
+        <file>qml/SmallFridgeCalendar/CalendarDayEvent.qml</file>
+        <file>qml/SmallFridgeCalendar/CalendarDayEventlist.qml</file>
+        <file>qml/SmallFridgeCalendar/DayTimes.qml</file>
+        <file>qml/SmallFridgeCalendar/DayView.qml</file>
+        <file>qml/SmallFridgeCalendar/Keyboard.qml</file>
+        <file>qml/SmallFridgeCalendar/main.qml</file>
+        <file>qml/SmallFridgeCalendar/MonthView.qml</file>
+        <file>qml/SmallFridgeCalendar/assets/CharacterKey.qml</file>
+        <file>qml/SmallFridgeCalendar/assets/FunctionKey.qml</file>
+        <file>qml/SmallFridgeCalendar/assets/KeyboardLogic.qml</file>
+        <file>qml/SmallFridgeCalendar/assets/icon-m-input-methods-backspace.png</file>
+        <file>qml/SmallFridgeCalendar/assets/icon-m-input-methods-capslock.png</file>
+        <file>qml/SmallFridgeCalendar/assets/icon-m-input-methods-enter.png</file>
+        <file>qml/SmallFridgeCalendar/assets/icon-m-input-methods-shift-lowercase.png</file>
+        <file>qml/SmallFridgeCalendar/assets/icon-m-input-methods-shift-uppercase.png</file>
+        <file>qml/SmallFridgeCalendar/assets/icon-m-input-methods-shift.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/FridgeZones/main.qml</file>
+        <file>qml/FridgeZones/ZoneDelegate.qml</file>
+        <file>qml/FridgeZones/images/fruitOff.png</file>
+        <file>qml/FridgeZones/images/freezerOn.png</file>
+        <file>qml/FridgeZones/images/freezerOff.png</file>
+        <file>qml/FridgeZones/images/fruitOn.png</file>
+        <file>qml/FridgeZones/images/veggieOn.png</file>
+        <file>qml/FridgeZones/images/veggieOff.png</file>
+        <file>qml/FridgeZones/images/mainOn.png</file>
+        <file>qml/FridgeZones/images/mainOff.png</file>
+        <file>qml/FridgeZones/images/temp-dial/zones-button-dial.png</file>
+        <file>qml/FridgeZones/images/temp-dial/zones-button-base.png</file>
+        <file>qml/FridgeZones/images/temp-dial/zones-decrease.png</file>
+        <file>qml/FridgeZones/images/temp-dial/zones-slider.png</file>
+        <file>qml/FridgeZones/images/temp-dial/zones-slider-track.png</file>
+        <file>qml/FridgeZones/images/temp-dial/zones-increase.png</file>
+        <file>qml/FridgeZones/content/Dial.qml</file>
+        <file>qml/FridgeZones/content/needle2.png</file>
+        <file>qml/smallFridgeZones/content/Dial.qml</file>
+        <file>qml/smallFridgeZones/content/needle2.png</file>
+        <file>qml/smallFridgeZones/main.qml</file>
+        <file>qml/smallFridgeZones/ZoneDelegate.qml</file>
+        <file>qml/smallFridgeZones/images/freezerOff.png</file>
+        <file>qml/smallFridgeZones/images/freezerOn.png</file>
+        <file>qml/smallFridgeZones/images/fruitOff.png</file>
+        <file>qml/smallFridgeZones/images/fruitOn.png</file>
+        <file>qml/smallFridgeZones/images/mainOff.png</file>
+        <file>qml/smallFridgeZones/images/mainOn.png</file>
+        <file>qml/smallFridgeZones/images/veggieOff.png</file>
+        <file>qml/smallFridgeZones/images/veggieOn.png</file>
+        <file>qml/smallFridgeZones/images/temp-dial/minus.png</file>
+        <file>qml/smallFridgeZones/images/temp-dial/plus.png</file>
+        <file>qml/smallFridgeZones/images/temp-dial/zones-button-base.png</file>
+        <file>qml/smallFridgeZones/images/temp-dial/zones-button-dial.png</file>
+        <file>qml/smallFridgeZones/images/temp-dial/zones-decrease.png</file>
+        <file>qml/smallFridgeZones/images/temp-dial/zones-increase.png</file>
+        <file>qml/smallFridgeZones/images/temp-dial/zones-slider-track.png</file>
+        <file>qml/smallFridgeZones/images/temp-dial/zones-slider.png</file>
+    </qresource>
+</RCC>

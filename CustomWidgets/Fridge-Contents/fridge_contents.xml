@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?xml-stylesheet type="text/css" href="food_catalog.css"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <contents id="Atmel's Fridge">
+  <food>
+   <name>Milk</name>
+   <quantity>1 Gallon</quantity>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-milk.png</icon>
+   <expiration>Jan 22, 2014</expiration>
+  </food>
+  <food>
+   <name>Eggs</name>
+   <quantity>1 Container</quantity>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-eggs.png</icon>
+   <expiration>Feb 11, 2014</expiration>
+  </food>
+  <food>
+   <name>Milk</name>
+   <quantity>1 Gallon</quantity>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-milk.png</icon>
+   <expiration>Jan 22, 2014</expiration>
+  </food>
+  <food>
+   <name>T-Bone</name>
+   <quantity>1 Gallon</quantity>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-tbone.png</icon>
+   <expiration/>
+  </food>
+  <food>
+   <name>Sausage</name>
+   <quantity>1 Gallon</quantity>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-sausage.png</icon>
+   <expiration/>
+  </food>
+  <food>
+   <name>Fish</name>
+   <quantity>1 Gallon</quantity>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-fish.png</icon>
+   <expiration/>
+  </food>
+  <food>
+   <name>Ham</name>
+   <quantity>1 Gallon</quantity>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-ham.png</icon>
+   <expiration></expiration>
+  </food>
+ </contents>
+</feed>

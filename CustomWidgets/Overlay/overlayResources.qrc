@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Overlay/ApplicationDelegate.qml</file>
+        <file>qml/Overlay/Overlay.qml</file>
+        <file>resources/images/shade-calendar.png</file>
+        <file>resources/images/shade-calendar-on.png</file>
+        <file>resources/images/shade-contents.png</file>
+        <file>resources/images/shade-contents-on.png</file>
+        <file>resources/images/shade-epi.png</file>
+        <file>resources/images/shade-epi-on.png</file>
+        <file>resources/images/shade-internet.png</file>
+        <file>resources/images/shade-internet-on.png</file>
+        <file>resources/images/shade-whiteboard.png</file>
+        <file>resources/images/shade-whiteboard-on.png</file>
+        <file>resources/images/shade-zones.png</file>
+        <file>resources/images/shade-zones-on.png</file>
+        <file>qml/smallOverlay/ApplicationDelegate.qml</file>
+        <file>qml/smallOverlay/Overlay.qml</file>
+        <file>resources/smallimages/shade-calendar-on.png</file>
+        <file>resources/smallimages/shade-calendar.png</file>
+        <file>resources/smallimages/shade-contents-on.png</file>
+        <file>resources/smallimages/shade-contents.png</file>
+        <file>resources/smallimages/shade-epi-on.png</file>
+        <file>resources/smallimages/shade-epi.png</file>
+        <file>resources/smallimages/shade-internet-on.png</file>
+        <file>resources/smallimages/shade-internet.png</file>
+        <file>resources/smallimages/shade-whiteboard-on.png</file>
+        <file>resources/smallimages/shade-whiteboard.png</file>
+        <file>resources/smallimages/shade-zones-on.png</file>
+        <file>resources/smallimages/shade-zones.png</file>
+    </qresource>
+</RCC>

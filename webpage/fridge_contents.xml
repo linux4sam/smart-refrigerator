@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<?xml-stylesheet type="text/xsl" href="fridge_contents.xsl"?>
+<feed>
+ <contents>
+  <food>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-milk.png</icon>
+   <name>Milk</name>
+   <quantityUnit>Gallon</quantityUnit>
+   <quantityNum>1</quantityNum>
+   <expiration>Jan 22, 2014</expiration>
+  </food>
+  <food>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-eggs.png</icon>
+   <name>Eggs</name>
+   <quantityUnit>Container</quantityUnit>
+   <quantityNum>1</quantityNum>
+   <expiration>Feb 11, 2014</expiration>
+  </food>
+  <food>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-wine.png</icon>
+   <name>Wine</name>
+   <quantityUnit>Bottle</quantityUnit>
+   <quantityNum>2</quantityNum>
+   <expiration>Jan 15, 2015</expiration>
+  </food>
+  <food>
+   <icon>qrc:///qml/FridgeContents/resources/fridge-contents/icon-fish.png</icon>
+   <name>Fish</name>
+   <quantityUnit>Piece</quantityUnit>
+   <quantityNum>1</quantityNum>
+   <expiration>Jan 07, 2014</expiration>
+  </food>
+ </contents>
+</feed>
