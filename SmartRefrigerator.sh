@@ -1,5 +1,4 @@
 #! /bin/sh
 
 cd "$(dirname "$0")"
-./SmartRefrigerator -platform linuxfb $1 2>/dev/null
-
+bin/SmartRefrigerator $1 2>/dev/null
