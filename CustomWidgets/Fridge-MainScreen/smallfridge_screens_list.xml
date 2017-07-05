@@ -48,7 +48,6 @@
     <description>Test Description</description>
     <link rel="enclosure" type="image/png" href="../../applications/smallResources/fridge-home-contents.png" />
 </entry>
-<!--
 <entry>
     <title>FridgeWhiteboard</title>
     <link rel="alternate" type="text/html" href="../../applications/smallResources/fridge-home-whiteboard.png" />
@@ -61,7 +60,6 @@
     <description>Test Description</description>
     <link rel="enclosure" type="image/png" href="../../applications/smallResources/fridge-home-whiteboard.png" />
 </entry>
--->
 <entry>
     <title>FridgeEpicurious</title>
     <link rel="alternate" type="text/html" href="../../applications/smallResources/fridge-home-epi.png" />

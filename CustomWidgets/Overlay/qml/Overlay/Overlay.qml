@@ -189,11 +189,11 @@ Rectangle {
             applicationImageOff: "../../resources/images/shade-internet.png"
             applicationImageOn: "../../resources/images/shade-internet-on.png"
         }
-        //ListElement {
-        //    applicationName: "whiteboard"
-        //    applicationImageOff: "../../resources/images/shade-whiteboard.png"
-        //    applicationImageOn: "../../resources/images/shade-whiteboard-on.png"
-        //}
+        ListElement {
+            applicationName: "whiteboard"
+            applicationImageOff: "../../resources/images/shade-whiteboard.png"
+            applicationImageOn: "../../resources/images/shade-whiteboard-on.png"
+        }
         ListElement {
             applicationName: "zones"
             applicationImageOff: "../../resources/images/shade-zones.png"
