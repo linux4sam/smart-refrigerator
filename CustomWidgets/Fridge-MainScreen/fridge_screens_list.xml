@@ -48,7 +48,7 @@
     <description>Test Description</description>
     <link rel="enclosure" type="image/png" href="../../applications/resources/fridge-home-contents.png" />
 </entry>
-<entry>
+<!--<entry>
     <title>FridgeWhiteboard</title>
     <link rel="alternate" type="text/html" href="../../applications/resources/fridge-home-whiteboard.png" />
     <id>tag:atmel.com,2005:/app/8144940683</id>
@@ -59,7 +59,7 @@
     <arg></arg>
     <description>Test Description</description>
     <link rel="enclosure" type="image/png" href="../../applications/resources/fridge-home-whiteboard.png" />
-</entry>
+</entry>-->
 <entry>
     <title>FridgeEpicurious</title>
     <link rel="alternate" type="text/html" href="../../applications/resources/fridge-home-epi.png" />
